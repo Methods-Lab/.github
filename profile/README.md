@@ -1,6 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,20&height=220&section=header&text=Methods%20Lab&fontSize=80&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Machine%20Intelligence%20Research%20%26%20Engineering&descSize=20&descColor=ffffffcc&descAlignY=58&stroke=ffffff&strokeWidth=1" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=52&pause=99999&color=58A6FF&center=true&vCenter=true&repeat=false&width=700&height=100&lines=Methods+Lab">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=52&pause=99999&color=1d4ed8&center=true&vCenter=true&repeat=false&width=700&height=100&lines=Methods+Lab" alt="Methods Lab">
+</picture>
+
+### Machine Intelligence Research & Engineering
 
 </div>
 
@@ -412,6 +417,6 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,20&height=120&section=footer&animation=fadeIn" width="100%"/>
+![footer](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&pause=99999&color=58A6FF&center=true&vCenter=true&repeat=false&width=700&height=40&lines=Methods+Lab+%E2%80%94+Engineering+the+methods+that+advance+machine+intelligence)
 
 </div>
