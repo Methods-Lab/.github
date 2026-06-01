@@ -1,102 +1,435 @@
-_Language:_ [中文](https://github.com/gege-circle/.github) | **English** | [日本語](./README_JA.md)
+<div align="center">
 
-## Welcome to Gege Circle!
-When you open this repository, you'll see the logo of **Gege Circle** ↓
+# 🔬 Methods Lab
 
-<div align=center>
-<img src="https://i0.hdslb.com/bfs/article/22734484a61a1476ceddc8077468ee4e399908610.png" width="50%"/>
+### *Advancing Machine Intelligence Through Rigorous Research & Engineering*
+
+[![Repos](https://img.shields.io/badge/Repositories-103-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/Methods-Lab/repositories)
+[![Focus](https://img.shields.io/badge/Focus-ML%20%7C%20AI%20%7C%20Deep%20Learning-blue?style=for-the-badge)](https://github.com/Methods-Lab)
+[![Language](https://img.shields.io/badge/Primary-Python%20%7C%20JavaScript%20%7C%20C%2B%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Methods-Lab)
+
 </div>
 
-<div align=center>
-<code>This image is provided under the Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0) license and are used in accordance with the license.</code>
+---
+
+## 🧭 About Methods Lab
+
+Methods Lab is a research-driven engineering organization focused on building, curating, and advancing state-of-the-art tools across machine learning, deep learning, computer vision, NLP, and intelligent systems. Our repositories span foundational frameworks, production-grade applications, and cutting-edge research implementations — bridging the gap between academic research and real-world deployment.
+
+> *"From neural network visualization to large-scale recommendation systems — we engineer the methods that matter."*
+
+---
+
+## 📂 Repository Domains
+
+| Domain | Repos | Core Stack |
+|--------|-------|------------|
+| 🧠 [Neural Network Visualization](#-neural-network-visualization) | 5 | JavaScript, Python, PyTorch |
+| 🎯 [Recommendation Systems](#-recommendation-systems) | 7 | Python, PyTorch, C++ |
+| 🤖 [ML Infrastructure & Training](#-ml-infrastructure--training) | 6 | Python, PyTorch |
+| 💬 [NLP & Sentiment Analysis](#-nlp--sentiment-analysis) | 4 | Python, Jupyter |
+| 📈 [Finance & Prediction](#-finance--prediction) | 2 | Python |
+| 🛡️ [Security & ML Applications](#️-security--ml-applications) | 2 | Python |
+| 🌐 [Web Apps & Interfaces](#-web-apps--interfaces) | 3 | HTML, Python, Flask |
+| 🏋️ [Model Hubs & Pretrained Models](#️-model-hubs--pretrained-models) | 3 | Python |
+| 🏗️ [Systems & Infrastructure](#️-systems--infrastructure) | 4 | C++, Go, Python |
+| 📚 [Research & Learning Resources](#-research--learning-resources) | 5 | Jupyter, Python |
+| 🔬 [Specialized Research](#-specialized-research) | 3 | Python, Jupyter |
+
+---
+
+## 🧠 Neural Network Visualization
+
+> Tools to see inside the black box — understand, debug, and explain neural networks visually.
+
+### 🔷 [tensorspace](https://github.com/Methods-Lab/tensorspace)
+3D visualization framework for neural networks. Renders layer-by-layer model architecture in the browser — watch tensors flow through your network in real time.
+
+`JavaScript` `Three.js` `TensorFlow.js` `WebGL`
+
+---
+
+### 🔷 [netron](https://github.com/Methods-Lab/netron)
+The industry-standard neural network model viewer. Supports ONNX, TensorFlow, PyTorch, Keras, CoreML, and 30+ other formats. Visualize architecture, weights, and metadata for any model.
+
+`JavaScript` `Electron` `ONNX` `MIT License`
+
+---
+
+### 🔷 [cnn-explainer](https://github.com/Methods-Lab/cnn-explainer)
+Interactive CNN explainer built with Svelte + D3. Walk through convolution, pooling, and activation operations step-by-step with live visual feedback. Ideal for education and model debugging.
+
+`JavaScript` `Svelte` `D3.js` `MIT License`
+
+---
+
+### 🔷 [pytorch-cnn-visualizations](https://github.com/Methods-Lab/pytorch-cnn-visualizations)
+PyTorch implementations of CNN visualization techniques: Grad-CAM, Guided Backpropagation, Saliency Maps, Smooth Grad, and more. Drop-in ready for any PyTorch classification model.
+
+`Python` `PyTorch` `Grad-CAM` `MIT License`
+
+---
+
+### 🔷 [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/Methods-Lab/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
+Curated collection of tools for designing and visualizing neural network architectures — PlotNeuralNet, NN-SVG, Netscope, and more, with usage examples for each.
+
+`Python` `LaTeX` `Research Tools`
+
+---
+
+## 🎯 Recommendation Systems
+
+> From collaborative filtering to graph neural networks — the full spectrum of modern recommender research.
+
+### 🔷 [recommenders](https://github.com/Methods-Lab/recommenders)
+Microsoft's production-grade recommendation systems library. Implements best practices for building, evaluating, and deploying recommenders — covers collaborative filtering, content-based, deep learning, and hybrid approaches.
+
+`Python` `PyTorch` `TensorFlow` `MIT License`
+
+---
+
+### 🔷 [torchrec](https://github.com/Methods-Lab/torchrec)
+PyTorch domain library for large-scale recommendation systems. Handles sparse embeddings at Facebook/Meta scale — distributed training, sharding strategies, and high-performance embedding lookup.
+
+`Python` `PyTorch` `CUDA` `BSD-3 License`
+
+---
+
+### 🔷 [monolith](https://github.com/Methods-Lab/monolith)
+ByteDance's collision-free embedding table for recommendation systems. Enables real-time learning without ID collisions — the architecture powering TikTok's recommendation engine.
+
+`Python` `C++` `Embedding Tables` `Production ML`
+
+---
+
+### 🔷 [RecFM](https://github.com/Methods-Lab/RecFM)
+Factorization Machine-based recommendation framework. Implements FM, DeepFM, NFM, AFM, and xDeepFM with unified training and evaluation pipelines.
+
+`Python` `Apache 2.0`
+
+---
+
+### 🔷 [GNN-Recommender-Systems](https://github.com/Methods-Lab/GNN-Recommender-Systems)
+Survey and implementation repository for graph neural network-based recommenders. Covers LightGCN, NGCF, PinSage, and social-aware GNN recommenders with benchmark datasets.
+
+`Python` `PyTorch Geometric` `GNN` `Research`
+
+---
+
+### 🔷 [Deep-Learning-for-Recommendation-Systems](https://github.com/Methods-Lab/Deep-Learning-for-Recommendation-Systems)
+Comprehensive resource covering deep learning approaches in recommender systems — Wide & Deep, DIN, DIEN, sequence modeling, and multi-task learning, with paper links and code.
+
+`Python` `Deep Learning` `Research Survey`
+
+---
+
+### 🔷 [Surprise](https://github.com/Methods-Lab/Surprise)
+Scikit-style Python library for building and evaluating collaborative filtering recommender systems. Clean API for SVD, SVD++, NMF, KNN, and baseline algorithms with cross-validation support.
+
+`Python` `scikit` `BSD-3 License`
+
+---
+
+## 🤖 ML Infrastructure & Training
+
+> Tools that make training, deploying, and managing models faster, simpler, and more reproducible.
+
+### 🔷 [traingenerator](https://github.com/Methods-Lab/traingenerator)
+Web UI for generating PyTorch/scikit-learn training code. Select your task, model, and hyperparameters — get a clean, ready-to-run Python training script instantly.
+
+`Python` `Streamlit` `PyTorch` `MIT License`
+
+---
+
+### 🔷 [inference](https://github.com/Methods-Lab/inference)
+Roboflow's high-performance model inference server. Deploy object detection, classification, and segmentation models via REST API — supports YOLO, SAM, CLIP, and custom models.
+
+`Python` `FastAPI` `Docker` `Computer Vision`
+
+---
+
+### 🔷 [fvcore](https://github.com/Methods-Lab/fvcore)
+Facebook's lightweight core library for PyTorch. Provides model complexity analysis (FLOPs, parameter count), checkpoint utilities, and common abstractions used across FAIR's research projects.
+
+`Python` `PyTorch` `Apache 2.0`
+
+---
+
+### 🔷 [tangle](https://github.com/Methods-Lab/tangle)
+Lightweight experiment tracking and model versioning for ML projects. Keeps training runs, configs, and artifacts organized without the overhead of a full MLOps platform.
+
+`Python` `Apache 2.0`
+
+---
+
+### 🔷 [brpc](https://github.com/Methods-Lab/brpc)
+Baidu's industrial-grade RPC framework used in production ML serving pipelines. Supports high-concurrency inference serving with auto load balancing, circuit breaking, and tracing.
+
+`C++` `RPC` `High Performance` `Production`
+
+---
+
+### 🔷 [open_model_zoo](https://github.com/Methods-Lab/open_model_zoo)
+Intel's collection of 200+ pre-trained models optimized for OpenVINO inference. Covers object detection, face analysis, human pose estimation, text recognition, and more.
+
+`Python` `OpenVINO` `Apache 2.0` `Intel`
+
+---
+
+## 💬 NLP & Sentiment Analysis
+
+> Language understanding at scale — from real-time social media analysis to machine translation.
+
+### 🔷 [Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition](https://github.com/Methods-Lab/Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition)
+Real-time Twitter sentiment analysis pipeline for brand monitoring. Streams tweets, classifies sentiment with fine-tuned transformers, and surfaces trending topics and brand perception shifts.
+
+`Python` `Jupyter` `Transformers` `MIT License`
+
+---
+
+### 🔷 [ML-MT-WebApp](https://github.com/Methods-Lab/ML-MT-WebApp)
+Machine learning-powered multilingual translation web application. Supports multiple language pairs with a clean frontend interface and REST API backend.
+
+`HTML` `Python` `NLP` `MIT License`
+
+---
+
+### 🔷 [machine-learning-notes](https://github.com/Methods-Lab/machine-learning-notes)
+Comprehensive ML notes and implementations in Jupyter notebooks — covers linear algebra, probability, supervised/unsupervised learning, and deep learning fundamentals with annotated code.
+
+`Jupyter Notebook` `Python` `Education`
+
+---
+
+### 🔷 [football_analysis](https://github.com/Methods-Lab/football_analysis)
+Sports analytics project applying ML and statistical methods to football data. Covers player performance prediction, match outcome modelling, and positional analysis using real datasets.
+
+`Jupyter Notebook` `Python` `Sports Analytics`
+
+---
+
+## 📈 Finance & Prediction
+
+> Machine intelligence applied to markets — from sentiment-driven prediction to multi-agent simulation.
+
+### 🔷 [Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis](https://github.com/Methods-Lab/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
+Full-stack web application combining LSTM price prediction with real-time news sentiment analysis for stock forecasting. Features interactive charts and a live prediction dashboard.
+
+`Python` `LSTM` `Sentiment Analysis` `Web App`
+
+---
+
+### 🔷 [interview](https://github.com/Methods-Lab/interview)
+Curated collection of ML and systems engineering interview problems with solutions. Covers algorithms, data structures, ML theory, and system design — with C++ and Python implementations.
+
+`C++` `Python` `Interview Prep`
+
+---
+
+## 🛡️ Security & ML Applications
+
+> Applying machine learning to cybersecurity — intelligent threat detection and adaptive defence.
+
+### 🔷 [Fwaf-Machine-Learning-driven-Web-Application-Firewall](https://github.com/Methods-Lab/Fwaf-Machine-Learning-driven-Web-Application-Firewall)
+ML-driven Web Application Firewall that learns to detect SQL injection, XSS, and other attack patterns. Trained on real attack datasets with an adaptive blocking engine.
+
+`Python` `Security` `ML` `Cybersecurity`
+
+---
+
+### 🔷 [code](https://github.com/Methods-Lab/code)
+Systems and algorithm implementations in C++ — covers data structures, graph algorithms, dynamic programming, and competitive programming solutions with benchmarks.
+
+`C++` `Algorithms` `Systems`
+
+---
+
+## 🌐 Web Apps & Interfaces
+
+> ML models delivered as usable products — interactive demos, dashboards, and APIs.
+
+### 🔷 [traingenerator](https://github.com/Methods-Lab/traingenerator)
+*(Also listed under ML Infrastructure)* — A Streamlit web app that generates ready-to-run PyTorch training scripts from a visual UI. Select dataset, model, optimizer, and get production code.
+
+`Python` `Streamlit` `Web UI`
+
+---
+
+### 🔷 [ML-MT-WebApp](https://github.com/Methods-Lab/ML-MT-WebApp)
+*(Also listed under NLP)* — Multilingual ML translation web app with a clean browser interface and REST API.
+
+`HTML` `Python` `REST API`
+
+---
+
+### 🔷 [Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis](https://github.com/Methods-Lab/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
+*(Also listed under Finance)* — Live stock prediction dashboard combining LSTM and sentiment signals.
+
+`Python` `Flask` `LSTM` `Sentiment`
+
+---
+
+## 🏋️ Model Hubs & Pretrained Models
+
+> Curated access to pretrained models across domains — ready to fine-tune or deploy.
+
+### 🔷 [pretrained.ml](https://github.com/Methods-Lab/pretrained.ml)
+Searchable index and downloader for pretrained models across TensorFlow, PyTorch, and JAX — covers vision, NLP, audio, and multimodal models with metadata and benchmark scores.
+
+`Python` `Model Hub` `MIT License`
+
+---
+
+### 🔷 [open_model_zoo](https://github.com/Methods-Lab/open_model_zoo)
+*(Also listed under ML Infrastructure)* — Intel's 200+ model zoo optimized for OpenVINO deployment.
+
+`Python` `OpenVINO` `Apache 2.0`
+
+---
+
+### 🔷 [inference](https://github.com/Methods-Lab/inference)
+*(Also listed under ML Infrastructure)* — Roboflow's inference server for deploying vision models at scale.
+
+`Python` `FastAPI` `Docker`
+
+---
+
+## 🏗️ Systems & Infrastructure
+
+> The engineering backbone — high-performance computing, distributed systems, and production serving.
+
+### 🔷 [brpc](https://github.com/Methods-Lab/brpc)
+*(Also listed under ML Infrastructure)* — Baidu's battle-tested industrial RPC framework for high-throughput ML serving.
+
+`C++` `RPC` `Production`
+
+---
+
+### 🔷 [tangle](https://github.com/Methods-Lab/tangle)
+Lightweight experiment and artifact management for ML pipelines.
+
+`Python` `Apache 2.0`
+
+---
+
+### 🔷 [fvcore](https://github.com/Methods-Lab/fvcore)
+Facebook's PyTorch utility library for model analysis and common infrastructure.
+
+`Python` `PyTorch` `Apache 2.0`
+
+---
+
+### 🔷 [monolith](https://github.com/Methods-Lab/monolith)
+ByteDance's collision-free embedding infrastructure powering large-scale recommendation serving.
+
+`Python` `C++` `Production ML`
+
+---
+
+## 📚 Research & Learning Resources
+
+> Curated knowledge — papers, notes, tutorials, and structured learning paths.
+
+### 🔷 [machine-learning-notes](https://github.com/Methods-Lab/machine-learning-notes)
+Deep, annotated ML notebooks from linear models to transformers — structured as a self-contained learning resource.
+
+`Jupyter Notebook` `Python`
+
+---
+
+### 🔷 [GNN-Recommender-Systems](https://github.com/Methods-Lab/GNN-Recommender-Systems)
+Research survey with implementations covering the graph neural network recommender landscape.
+
+`Python` `Research`
+
+---
+
+### 🔷 [Deep-Learning-for-Recommendation-Systems](https://github.com/Methods-Lab/Deep-Learning-for-Recommendation-Systems)
+Survey of deep learning approaches in recommender systems with paper links and code.
+
+`Python` `Research`
+
+---
+
+### 🔷 [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/Methods-Lab/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
+Curated toolkit for every stage of neural network design and visualization.
+
+`Research Tools`
+
+---
+
+### 🔷 [interview](https://github.com/Methods-Lab/interview)
+ML and systems engineering interview preparation with worked solutions.
+
+`C++` `Python`
+
+---
+
+## 🔬 Specialized Research
+
+> Focused research implementations in sports analytics, sports data, and domain-specific ML.
+
+### 🔷 [football_analysis](https://github.com/Methods-Lab/football_analysis)
+ML-driven football analytics — player performance, match prediction, and positional modelling.
+
+`Jupyter Notebook` `Python`
+
+---
+
+### 🔷 [Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition](https://github.com/Methods-Lab/Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition)
+Real-time social signal extraction for brand intelligence using transformer-based sentiment classifiers.
+
+`Python` `Jupyter` `MIT License`
+
+---
+
+### 🔷 [Fwaf-Machine-Learning-driven-Web-Application-Firewall](https://github.com/Methods-Lab/Fwaf-Machine-Learning-driven-Web-Application-Firewall)
+Adaptive ML-based web application firewall — security intelligence powered by learned attack pattern recognition.
+
+`Python` `Security` `ML`
+
+---
+
+## 🔧 Core Technology Stack
+
+| Layer | Technologies |
+|-------|-------------|
+| 🧠 Frameworks | PyTorch, TensorFlow, JAX, scikit-learn |
+| 🤖 Deep Learning | CNNs, LSTMs, Transformers, GNNs, Factorization Machines |
+| 🔌 Serving & APIs | FastAPI, Flask, REST, gRPC, brpc |
+| 🗃️ Data & Embeddings | FAISS, embedding tables, sparse features |
+| ⚡ Accelerated Compute | CUDA, OpenVINO, TensorRT |
+| 🌐 Frontend | JavaScript, Svelte, D3.js, Three.js, HTML |
+| 🏗️ Systems | C++, Go, Docker, distributed training |
+| 📊 Notebooks | Jupyter, Streamlit |
+
+---
+
+## 📊 Organization Stats
+
+<div align="center">
+
+![Repos](https://img.shields.io/badge/Total%20Repos-103-0d1117?style=flat-square&logo=github)
+![Languages](https://img.shields.io/badge/Languages-Python%20%7C%20JS%20%7C%20C%2B%2B%20%7C%20Jupyter-blue?style=flat-square)
+![Domains](https://img.shields.io/badge/Domains-11-green?style=flat-square)
+![License](https://img.shields.io/badge/Licenses-MIT%20%7C%20Apache%202.0%20%7C%20BSD-orange?style=flat-square)
+
 </div>
- 
-Congratulations! Seeing this logo means you've officially become a **Getuanzi**!
 
-**Welcome to our big family filled with love and hope**!
+---
 
-<div align=center>
-<img src="https://i0.hdslb.com/bfs/article/4adb9255ada5b97061e610b682b8636764fe50ed.png" width="25%"/>
+## 🤝 Contributing & Contact
+
+Methods Lab is an open research organization. All repositories are public and open for contributions.
+
+- 📁 **Browse all repos:** [github.com/orgs/Methods-Lab/repositories](https://github.com/orgs/Methods-Lab/repositories)
+- 🐛 **Issues & PRs:** Open directly on any repository
+- 📧 **Contact:** [syedwasif978@gmail.com](mailto:syedwasif978@gmail.com)
+
+---
+
+<div align="center">
+
+*Methods Lab — Engineering the methods that advance machine intelligence.*
+
 </div>
-
-<div align=center>
-<blockquote><b>「Create more joy with everyone, and change the world together.」</b></blockquote>
-</div>
-
-Gege Circle (​戈戈圈) is a creative project originating from Hainan, China, officially launched by Wang Ge's younger sister on July 14, 2018. It encompasses diverse creative artworks including illustrations, novels, music, and more.
-
-Current Members of Gege Circle:
-
-![Contributors](https://contrib.rocks/image?repo=gege-circle/home)
-
-Supporters of Gege Circle and this project are called **"Getuanzi"** (​戈团子).
-
-The term "Getuanzi" originated from a giant panda named "Tuanzi" (团子) born in 2015, it also refers to a Japanese dumpling - Dango (団子), both symbolizing reunion, unity, friendship, and collective aspirations. We officially adopted "Getuanzi" as the fanbase name in early 2021.
-
-**If you're interested in Gege Circle, feel free to join us (σ≧▽≦)σ!**
-
-<div align=center>
-<img src="https://i0.hdslb.com/bfs/article/4adb9255ada5b97061e610b682b8636764fe50ed.png" width="25%"/>
-</div>
-
-Since Wang Ge's previous videos did not provide detailed information about this project and contained ambiguous descriptions, we have created this repository to formally introduce **Gege Circle** in written form.
-
-Gege Circle established on July 14, 2018, has always adhered to principles of inclusivity, openness, harmony, and kindness. We are fully aware of our responsibilities and mission, consistently respecting social ethics, strictly complying with laws and regulations, and actively contributing to maintaining social stability and public interests.
-
-Therefore, **we prohibit any individuals or organizations from posting inappropriate remarks under the name of "Gege Circle"** on online websites or in real life. **We also firmly oppose excessive promotion of Gege Circle**, including but not limited to **mentioning Gege Circle or its members in danmu, comment, or any other form within videos unrelated to the project**.
-
-While we understand that mentions of Gege Circle in unrelated videos might stem from unintentional enthusiasm, **such behavior causes trouble** for creators and viewers of those unrelated videos. Additionally, Gege Circle itself has faced significant backlash due to these incidents.
-
-As members of Gege Circle, we **kindly ask for your cooperation**:
-
-If you encounter danmu and comments mentioning Gege Circle in unrelated videos, please **report** them to have such danmu and comments removed.
-
-**"Unrelated to Gege Circle" refers to content neither produced by Gege Circle/our project members nor directly mentioning Gege Circle**. When seeing people mentioning Gege Circle in unrelated videos, let's all report them - **don't argue, just report**.
-
-Don't respond to those randomly spamming Gege Circle either. If one spam comment gets flooded with 99 "stop spamming" replies, it creates another problematic scenario. So just silently click report! Quietly, quietly click report! **No engagement, no disputes**!
-
-If anyone says "why can't I spam Gege Circle", send them this repository saying "**this is why Gege Circle prohibits spamming**". If they want to argue, tell them to come debate with us!
-
-If random Gege Circle spamming persists, **we'll keep emphasizing this**. We'll emphasize it endlessly. please work with **us to eliminate this spamming phenomenon** - we beg you all, sincerely, PLEASE!
-
-So...
-
-<div align=center>
-<img src="https://i0.hdslb.com/bfs/new_dyn/a96d87c79af50833045ba79e4f3c2403291584196.png" width="100%"/>
-</div>
-
-Note: If you've previously mentioned Gege Circle in unrelated videos, no worries – starting now, let's join forces to eliminate this behavior. **Just click report with us! PLEASE**!
-
-<div align=center>
-<img src="https://i0.hdslb.com/bfs/article/4adb9255ada5b97061e610b682b8636764fe50ed.png" width="25%"/>
-</div>
-
-At the end of this repository, let's whisper an open secret we all know~
-
-In truth, Gege Circle has always regarded you all as dear friends or closest siblings, sharing every fleeting moment together~
-
-To us, each of you is a unique, vibrant individual, carrying rich life stories and emotional tides - laughter, sorrow, anger, frustration. These raw, tender feelings transform you from mere digital presences into treasured companions. It is this shared resonance and understanding that binds us, walking forward hand in hand.
-
-Similarly, we yearn to become that friend in your hearts - the one you can confide in at any time, sharing both joys and sorrows. Whether bursting with happiness or weighed down by tears, remember: **Gege Circle and we are always here**. We may not reply instantly, but our care and presence remain constant - **we are here, always**~
-
-These words might feel more fitting for a special occasion, but since they surge from our hearts now, we couldn't wait to tell you. After all, sincerity warms the soul, no matter when it's spoken.
-
-Finally, let's make an eternal promise! To be forever friends—however long "forever" stretches - we vow to stand by you, offering support and companionship whenever needed.  
-
-**This gratitude shall forever dwell in our hearts!** 💖  
-
-## Where are the issues?
-Given that this repository has remained inactive for an extended period and the discussion feature has now been migrated to the Reddit sub r/gege_circle, we have decided to switch it off, not by GitHub or others.
-
-For further discussions, please visit our Reddit sub **[r/gege_circle](https://reddit.com/r/gege_circle)**.
-
-Thank you for your unwavering care and support toward Gege circle.  
-
-## Regarding the issue with this repository
-We noticed that some GitHub users have feedback to us that about of this repository contains many unrelated keywords, which causes it to be frequently misassociated in GitHub search results.
-
-These keywords were not added by us. We attempted to update the repository about, but GitHub rejected our changes.
-
-We suspect this may be a GitHub bug, and we have already reported the issue to the GitHub team.
-
-We sincerely apologize for the poor experience this has caused.
