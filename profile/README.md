@@ -1,434 +1,286 @@
 <div align="center">
 
-# 🔬 Methods Lab
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2e,100:0d1117&height=200&section=header&text=Methods%20Lab&fontSize=72&fontColor=58a6ff&fontAlignY=38&animation=fadeIn&desc=Machine%20Intelligence%20Research%20%26%20Engineering&descSize=18&descColor=8b949e&descAlignY=60">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f0f6ff,50:dbeafe,100:f0f6ff&height=200&section=header&text=Methods%20Lab&fontSize=72&fontColor=1d4ed8&fontAlignY=38&animation=fadeIn&desc=Machine%20Intelligence%20Research%20%26%20Engineering&descSize=18&descColor=374151&descAlignY=60" alt="Methods Lab">
+</picture>
 
-### *Advancing Machine Intelligence Through Rigorous Research & Engineering*
+<br/>
 
-[![Repos](https://img.shields.io/badge/Repositories-103-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/Methods-Lab/repositories)
-[![Focus](https://img.shields.io/badge/Focus-ML%20%7C%20AI%20%7C%20Deep%20Learning-blue?style=for-the-badge)](https://github.com/Methods-Lab)
-[![Language](https://img.shields.io/badge/Primary-Python%20%7C%20JavaScript%20%7C%20C%2B%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/Methods-Lab)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Neural+Networks+%E2%86%92+Visualization+%E2%86%92+Production;Recommendation+Systems+at+Scale;NLP+%7C+Computer+Vision+%7C+Deep+Learning;103+Repositories+%7C+11+Research+Domains)](https://git.io/typing-svg)
+
+<br/>
+
+<a href="https://github.com/orgs/Methods-Lab/repositories">
+  <img src="https://img.shields.io/badge/Repositories-105-0d1117?style=for-the-badge&logo=github&logoColor=58a6ff&labelColor=161b22&color=21262d" />
+</a>
+&nbsp;
+<a href="https://github.com/Methods-Lab">
+  <img src="https://img.shields.io/badge/Domain-Machine%20Learning-0d1117?style=for-the-badge&logo=pytorch&logoColor=ee4c2c&labelColor=161b22&color=21262d" />
+</a>
+&nbsp;
+<a href="https://github.com/Methods-Lab">
+  <img src="https://img.shields.io/badge/Stack-Python%20%7C%20C%2B%2B%20%7C%20JS-0d1117?style=for-the-badge&logo=python&logoColor=3776ab&labelColor=161b22&color=21262d" />
+</a>
 
 </div>
 
----
-
-## 🧭 About Methods Lab
-
-Methods Lab is a research-driven engineering organization focused on building, curating, and advancing state-of-the-art tools across machine learning, deep learning, computer vision, NLP, and intelligent systems. Our repositories span foundational frameworks, production-grade applications, and cutting-edge research implementations — bridging the gap between academic research and real-world deployment.
-
-> *"From neural network visualization to large-scale recommendation systems — we engineer the methods that matter."*
-
----
-
-## 📂 Repository Domains
-
-| Domain | Repos | Core Stack |
-|--------|-------|------------|
-| 🧠 [Neural Network Visualization](#-neural-network-visualization) | 5 | JavaScript, Python, PyTorch |
-| 🎯 [Recommendation Systems](#-recommendation-systems) | 7 | Python, PyTorch, C++ |
-| 🤖 [ML Infrastructure & Training](#-ml-infrastructure--training) | 6 | Python, PyTorch |
-| 💬 [NLP & Sentiment Analysis](#-nlp--sentiment-analysis) | 4 | Python, Jupyter |
-| 📈 [Finance & Prediction](#-finance--prediction) | 2 | Python |
-| 🛡️ [Security & ML Applications](#️-security--ml-applications) | 2 | Python |
-| 🌐 [Web Apps & Interfaces](#-web-apps--interfaces) | 3 | HTML, Python, Flask |
-| 🏋️ [Model Hubs & Pretrained Models](#️-model-hubs--pretrained-models) | 3 | Python |
-| 🏗️ [Systems & Infrastructure](#️-systems--infrastructure) | 4 | C++, Go, Python |
-| 📚 [Research & Learning Resources](#-research--learning-resources) | 5 | Jupyter, Python |
-| 🔬 [Specialized Research](#-specialized-research) | 3 | Python, Jupyter |
-
----
-
-## 🧠 Neural Network Visualization
-
-> Tools to see inside the black box — understand, debug, and explain neural networks visually.
-
-### 🔷 [tensorspace](https://github.com/Methods-Lab/tensorspace)
-3D visualization framework for neural networks. Renders layer-by-layer model architecture in the browser — watch tensors flow through your network in real time.
-
-`JavaScript` `Three.js` `TensorFlow.js` `WebGL`
-
----
-
-### 🔷 [netron](https://github.com/Methods-Lab/netron)
-The industry-standard neural network model viewer. Supports ONNX, TensorFlow, PyTorch, Keras, CoreML, and 30+ other formats. Visualize architecture, weights, and metadata for any model.
-
-`JavaScript` `Electron` `ONNX` `MIT License`
-
----
-
-### 🔷 [cnn-explainer](https://github.com/Methods-Lab/cnn-explainer)
-Interactive CNN explainer built with Svelte + D3. Walk through convolution, pooling, and activation operations step-by-step with live visual feedback. Ideal for education and model debugging.
-
-`JavaScript` `Svelte` `D3.js` `MIT License`
-
----
-
-### 🔷 [pytorch-cnn-visualizations](https://github.com/Methods-Lab/pytorch-cnn-visualizations)
-PyTorch implementations of CNN visualization techniques: Grad-CAM, Guided Backpropagation, Saliency Maps, Smooth Grad, and more. Drop-in ready for any PyTorch classification model.
-
-`Python` `PyTorch` `Grad-CAM` `MIT License`
-
----
-
-### 🔷 [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/Methods-Lab/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
-Curated collection of tools for designing and visualizing neural network architectures — PlotNeuralNet, NN-SVG, Netscope, and more, with usage examples for each.
-
-`Python` `LaTeX` `Research Tools`
-
----
-
-## 🎯 Recommendation Systems
-
-> From collaborative filtering to graph neural networks — the full spectrum of modern recommender research.
-
-### 🔷 [recommenders](https://github.com/Methods-Lab/recommenders)
-Microsoft's production-grade recommendation systems library. Implements best practices for building, evaluating, and deploying recommenders — covers collaborative filtering, content-based, deep learning, and hybrid approaches.
-
-`Python` `PyTorch` `TensorFlow` `MIT License`
-
----
-
-### 🔷 [torchrec](https://github.com/Methods-Lab/torchrec)
-PyTorch domain library for large-scale recommendation systems. Handles sparse embeddings at Facebook/Meta scale — distributed training, sharding strategies, and high-performance embedding lookup.
-
-`Python` `PyTorch` `CUDA` `BSD-3 License`
-
----
-
-### 🔷 [monolith](https://github.com/Methods-Lab/monolith)
-ByteDance's collision-free embedding table for recommendation systems. Enables real-time learning without ID collisions — the architecture powering TikTok's recommendation engine.
-
-`Python` `C++` `Embedding Tables` `Production ML`
-
----
-
-### 🔷 [RecFM](https://github.com/Methods-Lab/RecFM)
-Factorization Machine-based recommendation framework. Implements FM, DeepFM, NFM, AFM, and xDeepFM with unified training and evaluation pipelines.
-
-`Python` `Apache 2.0`
-
----
-
-### 🔷 [GNN-Recommender-Systems](https://github.com/Methods-Lab/GNN-Recommender-Systems)
-Survey and implementation repository for graph neural network-based recommenders. Covers LightGCN, NGCF, PinSage, and social-aware GNN recommenders with benchmark datasets.
-
-`Python` `PyTorch Geometric` `GNN` `Research`
-
----
-
-### 🔷 [Deep-Learning-for-Recommendation-Systems](https://github.com/Methods-Lab/Deep-Learning-for-Recommendation-Systems)
-Comprehensive resource covering deep learning approaches in recommender systems — Wide & Deep, DIN, DIEN, sequence modeling, and multi-task learning, with paper links and code.
-
-`Python` `Deep Learning` `Research Survey`
-
----
-
-### 🔷 [Surprise](https://github.com/Methods-Lab/Surprise)
-Scikit-style Python library for building and evaluating collaborative filtering recommender systems. Clean API for SVD, SVD++, NMF, KNN, and baseline algorithms with cross-validation support.
-
-`Python` `scikit` `BSD-3 License`
-
----
-
-## 🤖 ML Infrastructure & Training
-
-> Tools that make training, deploying, and managing models faster, simpler, and more reproducible.
-
-### 🔷 [traingenerator](https://github.com/Methods-Lab/traingenerator)
-Web UI for generating PyTorch/scikit-learn training code. Select your task, model, and hyperparameters — get a clean, ready-to-run Python training script instantly.
-
-`Python` `Streamlit` `PyTorch` `MIT License`
-
----
-
-### 🔷 [inference](https://github.com/Methods-Lab/inference)
-Roboflow's high-performance model inference server. Deploy object detection, classification, and segmentation models via REST API — supports YOLO, SAM, CLIP, and custom models.
-
-`Python` `FastAPI` `Docker` `Computer Vision`
-
----
-
-### 🔷 [fvcore](https://github.com/Methods-Lab/fvcore)
-Facebook's lightweight core library for PyTorch. Provides model complexity analysis (FLOPs, parameter count), checkpoint utilities, and common abstractions used across FAIR's research projects.
-
-`Python` `PyTorch` `Apache 2.0`
-
----
-
-### 🔷 [tangle](https://github.com/Methods-Lab/tangle)
-Lightweight experiment tracking and model versioning for ML projects. Keeps training runs, configs, and artifacts organized without the overhead of a full MLOps platform.
-
-`Python` `Apache 2.0`
-
----
-
-### 🔷 [brpc](https://github.com/Methods-Lab/brpc)
-Baidu's industrial-grade RPC framework used in production ML serving pipelines. Supports high-concurrency inference serving with auto load balancing, circuit breaking, and tracing.
-
-`C++` `RPC` `High Performance` `Production`
-
----
-
-### 🔷 [open_model_zoo](https://github.com/Methods-Lab/open_model_zoo)
-Intel's collection of 200+ pre-trained models optimized for OpenVINO inference. Covers object detection, face analysis, human pose estimation, text recognition, and more.
-
-`Python` `OpenVINO` `Apache 2.0` `Intel`
-
----
-
-## 💬 NLP & Sentiment Analysis
-
-> Language understanding at scale — from real-time social media analysis to machine translation.
-
-### 🔷 [Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition](https://github.com/Methods-Lab/Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition)
-Real-time Twitter sentiment analysis pipeline for brand monitoring. Streams tweets, classifies sentiment with fine-tuned transformers, and surfaces trending topics and brand perception shifts.
-
-`Python` `Jupyter` `Transformers` `MIT License`
-
----
-
-### 🔷 [ML-MT-WebApp](https://github.com/Methods-Lab/ML-MT-WebApp)
-Machine learning-powered multilingual translation web application. Supports multiple language pairs with a clean frontend interface and REST API backend.
-
-`HTML` `Python` `NLP` `MIT License`
-
----
-
-### 🔷 [machine-learning-notes](https://github.com/Methods-Lab/machine-learning-notes)
-Comprehensive ML notes and implementations in Jupyter notebooks — covers linear algebra, probability, supervised/unsupervised learning, and deep learning fundamentals with annotated code.
-
-`Jupyter Notebook` `Python` `Education`
-
----
-
-### 🔷 [football_analysis](https://github.com/Methods-Lab/football_analysis)
-Sports analytics project applying ML and statistical methods to football data. Covers player performance prediction, match outcome modelling, and positional analysis using real datasets.
-
-`Jupyter Notebook` `Python` `Sports Analytics`
-
----
-
-## 📈 Finance & Prediction
-
-> Machine intelligence applied to markets — from sentiment-driven prediction to multi-agent simulation.
-
-### 🔷 [Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis](https://github.com/Methods-Lab/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
-Full-stack web application combining LSTM price prediction with real-time news sentiment analysis for stock forecasting. Features interactive charts and a live prediction dashboard.
-
-`Python` `LSTM` `Sentiment Analysis` `Web App`
-
----
-
-### 🔷 [interview](https://github.com/Methods-Lab/interview)
-Curated collection of ML and systems engineering interview problems with solutions. Covers algorithms, data structures, ML theory, and system design — with C++ and Python implementations.
-
-`C++` `Python` `Interview Prep`
-
----
-
-## 🛡️ Security & ML Applications
-
-> Applying machine learning to cybersecurity — intelligent threat detection and adaptive defence.
-
-### 🔷 [Fwaf-Machine-Learning-driven-Web-Application-Firewall](https://github.com/Methods-Lab/Fwaf-Machine-Learning-driven-Web-Application-Firewall)
-ML-driven Web Application Firewall that learns to detect SQL injection, XSS, and other attack patterns. Trained on real attack datasets with an adaptive blocking engine.
-
-`Python` `Security` `ML` `Cybersecurity`
-
----
-
-### 🔷 [code](https://github.com/Methods-Lab/code)
-Systems and algorithm implementations in C++ — covers data structures, graph algorithms, dynamic programming, and competitive programming solutions with benchmarks.
-
-`C++` `Algorithms` `Systems`
-
----
-
-## 🌐 Web Apps & Interfaces
-
-> ML models delivered as usable products — interactive demos, dashboards, and APIs.
-
-### 🔷 [traingenerator](https://github.com/Methods-Lab/traingenerator)
-*(Also listed under ML Infrastructure)* — A Streamlit web app that generates ready-to-run PyTorch training scripts from a visual UI. Select dataset, model, optimizer, and get production code.
-
-`Python` `Streamlit` `Web UI`
-
----
-
-### 🔷 [ML-MT-WebApp](https://github.com/Methods-Lab/ML-MT-WebApp)
-*(Also listed under NLP)* — Multilingual ML translation web app with a clean browser interface and REST API.
-
-`HTML` `Python` `REST API`
-
----
-
-### 🔷 [Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis](https://github.com/Methods-Lab/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis)
-*(Also listed under Finance)* — Live stock prediction dashboard combining LSTM and sentiment signals.
-
-`Python` `Flask` `LSTM` `Sentiment`
-
----
-
-## 🏋️ Model Hubs & Pretrained Models
-
-> Curated access to pretrained models across domains — ready to fine-tune or deploy.
-
-### 🔷 [pretrained.ml](https://github.com/Methods-Lab/pretrained.ml)
-Searchable index and downloader for pretrained models across TensorFlow, PyTorch, and JAX — covers vision, NLP, audio, and multimodal models with metadata and benchmark scores.
-
-`Python` `Model Hub` `MIT License`
-
----
-
-### 🔷 [open_model_zoo](https://github.com/Methods-Lab/open_model_zoo)
-*(Also listed under ML Infrastructure)* — Intel's 200+ model zoo optimized for OpenVINO deployment.
-
-`Python` `OpenVINO` `Apache 2.0`
-
----
-
-### 🔷 [inference](https://github.com/Methods-Lab/inference)
-*(Also listed under ML Infrastructure)* — Roboflow's inference server for deploying vision models at scale.
-
-`Python` `FastAPI` `Docker`
-
----
-
-## 🏗️ Systems & Infrastructure
-
-> The engineering backbone — high-performance computing, distributed systems, and production serving.
-
-### 🔷 [brpc](https://github.com/Methods-Lab/brpc)
-*(Also listed under ML Infrastructure)* — Baidu's battle-tested industrial RPC framework for high-throughput ML serving.
-
-`C++` `RPC` `Production`
-
----
-
-### 🔷 [tangle](https://github.com/Methods-Lab/tangle)
-Lightweight experiment and artifact management for ML pipelines.
-
-`Python` `Apache 2.0`
-
----
-
-### 🔷 [fvcore](https://github.com/Methods-Lab/fvcore)
-Facebook's PyTorch utility library for model analysis and common infrastructure.
-
-`Python` `PyTorch` `Apache 2.0`
-
----
-
-### 🔷 [monolith](https://github.com/Methods-Lab/monolith)
-ByteDance's collision-free embedding infrastructure powering large-scale recommendation serving.
-
-`Python` `C++` `Production ML`
-
----
-
-## 📚 Research & Learning Resources
-
-> Curated knowledge — papers, notes, tutorials, and structured learning paths.
-
-### 🔷 [machine-learning-notes](https://github.com/Methods-Lab/machine-learning-notes)
-Deep, annotated ML notebooks from linear models to transformers — structured as a self-contained learning resource.
-
-`Jupyter Notebook` `Python`
-
----
-
-### 🔷 [GNN-Recommender-Systems](https://github.com/Methods-Lab/GNN-Recommender-Systems)
-Research survey with implementations covering the graph neural network recommender landscape.
-
-`Python` `Research`
-
----
-
-### 🔷 [Deep-Learning-for-Recommendation-Systems](https://github.com/Methods-Lab/Deep-Learning-for-Recommendation-Systems)
-Survey of deep learning approaches in recommender systems with paper links and code.
-
-`Python` `Research`
-
----
-
-### 🔷 [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/Methods-Lab/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network)
-Curated toolkit for every stage of neural network design and visualization.
-
-`Research Tools`
-
----
-
-### 🔷 [interview](https://github.com/Methods-Lab/interview)
-ML and systems engineering interview preparation with worked solutions.
-
-`C++` `Python`
-
----
-
-## 🔬 Specialized Research
-
-> Focused research implementations in sports analytics, sports data, and domain-specific ML.
-
-### 🔷 [football_analysis](https://github.com/Methods-Lab/football_analysis)
-ML-driven football analytics — player performance, match prediction, and positional modelling.
-
-`Jupyter Notebook` `Python`
-
----
-
-### 🔷 [Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition](https://github.com/Methods-Lab/Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition)
-Real-time social signal extraction for brand intelligence using transformer-based sentiment classifiers.
-
-`Python` `Jupyter` `MIT License`
-
----
-
-### 🔷 [Fwaf-Machine-Learning-driven-Web-Application-Firewall](https://github.com/Methods-Lab/Fwaf-Machine-Learning-driven-Web-Application-Firewall)
-Adaptive ML-based web application firewall — security intelligence powered by learned attack pattern recognition.
-
-`Python` `Security` `ML`
-
----
-
-## 🔧 Core Technology Stack
-
-| Layer | Technologies |
-|-------|-------------|
-| 🧠 Frameworks | PyTorch, TensorFlow, JAX, scikit-learn |
-| 🤖 Deep Learning | CNNs, LSTMs, Transformers, GNNs, Factorization Machines |
-| 🔌 Serving & APIs | FastAPI, Flask, REST, gRPC, brpc |
-| 🗃️ Data & Embeddings | FAISS, embedding tables, sparse features |
-| ⚡ Accelerated Compute | CUDA, OpenVINO, TensorRT |
-| 🌐 Frontend | JavaScript, Svelte, D3.js, Three.js, HTML |
-| 🏗️ Systems | C++, Go, Docker, distributed training |
-| 📊 Notebooks | Jupyter, Streamlit |
-
----
-
-## 📊 Organization Stats
-
-<div align="center">
-
-![Repos](https://img.shields.io/badge/Total%20Repos-103-0d1117?style=flat-square&logo=github)
-![Languages](https://img.shields.io/badge/Languages-Python%20%7C%20JS%20%7C%20C%2B%2B%20%7C%20Jupyter-blue?style=flat-square)
-![Domains](https://img.shields.io/badge/Domains-11-green?style=flat-square)
-![License](https://img.shields.io/badge/Licenses-MIT%20%7C%20Apache%202.0%20%7C%20BSD-orange?style=flat-square)
-
-</div>
-
----
-
-## 🤝 Contributing & Contact
-
-Methods Lab is an open research organization. All repositories are public and open for contributions.
-
-- 📁 **Browse all repos:** [github.com/orgs/Methods-Lab/repositories](https://github.com/orgs/Methods-Lab/repositories)
-- 🐛 **Issues & PRs:** Open directly on any repository
-- 📧 **Contact:** [syedwasif978@gmail.com](mailto:syedwasif978@gmail.com)
+<br/>
 
 ---
 
 <div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                                                                   │
+│   Methods Lab builds, curates, and advances production-grade     │
+│   machine learning systems — from neural network visualization   │
+│   to large-scale recommenders, NLP pipelines, and intelligent    │
+│   applications across 11 research domains.                       │
+│                                                                   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br/>
+
+## Architecture of Research
+
+<div align="center">
+
+```
+                         METHODS LAB
+                              │
+          ┌───────────────────┼───────────────────┐
+          │                   │                   │
+   ┌──────▼──────┐    ┌───────▼──────┐    ┌──────▼──────┐
+   │  PERCEPTION  │    │  INTELLIGENCE │    │   SYSTEMS   │
+   │             │    │              │    │             │
+   │ · Visualize │    │ · Recommend  │    │ · Serve     │
+   │ · Explain   │    │ · Predict    │    │ · Scale     │
+   │ · Inspect   │    │ · Classify   │    │ · Deploy    │
+   └─────────────┘    └──────────────┘    └─────────────┘
+          │                   │                   │
+          └───────────────────┼───────────────────┘
+                              │
+                    ┌─────────▼─────────┐
+                    │   103 REPOSITORIES │
+                    │  Python · C++ · JS │
+                    └───────────────────┘
+```
+
+</div>
+
+<br/>
+
+---
+
+## Repository Domains
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Neural Network Visualization
+Tools to see inside the black box
+
+| Repository | Description |
+|---|---|
+| [tensorspace](https://github.com/Methods-Lab/tensorspace) | 3D real-time tensor flow renderer |
+| [netron](https://github.com/Methods-Lab/netron) | Universal model architecture viewer |
+| [cnn-explainer](https://github.com/Methods-Lab/cnn-explainer) | Interactive CNN layer walkthrough |
+| [pytorch-cnn-visualizations](https://github.com/Methods-Lab/pytorch-cnn-visualizations) | Grad-CAM, saliency maps, guided backprop |
+| [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/Methods-Lab/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network) | Curated design toolkit |
+
+</td>
+<td width="50%" valign="top">
+
+### Recommendation Systems
+Collaborative filtering to graph networks
+
+| Repository | Description |
+|---|---|
+| [recommenders](https://github.com/Methods-Lab/recommenders) | Microsoft's production recommender lib |
+| [torchrec](https://github.com/Methods-Lab/torchrec) | Meta-scale sparse embedding training |
+| [monolith](https://github.com/Methods-Lab/monolith) | ByteDance collision-free embedding tables |
+| [Surprise](https://github.com/Methods-Lab/Surprise) | scikit-style collaborative filtering |
+| [GNN-Recommender-Systems](https://github.com/Methods-Lab/GNN-Recommender-Systems) | LightGCN, NGCF, PinSage implementations |
+| [RecFM](https://github.com/Methods-Lab/RecFM) | DeepFM, NFM, AFM unified framework |
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ML Infrastructure
+Training, serving, and model management
+
+| Repository | Description |
+|---|---|
+| [traingenerator](https://github.com/Methods-Lab/traingenerator) | Web UI → production training scripts |
+| [inference](https://github.com/Methods-Lab/inference) | High-performance model serving API |
+| [fvcore](https://github.com/Methods-Lab/fvcore) | FLOPs analysis and PyTorch utilities |
+| [tangle](https://github.com/Methods-Lab/tangle) | Lightweight experiment tracking |
+| [open_model_zoo](https://github.com/Methods-Lab/open_model_zoo) | 200+ Intel OpenVINO-optimized models |
+| [brpc](https://github.com/Methods-Lab/brpc) | Industrial RPC for ML serving |
+
+</td>
+<td width="50%" valign="top">
+
+### NLP & Sentiment Analysis
+Language understanding at scale
+
+| Repository | Description |
+|---|---|
+| [Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition](https://github.com/Methods-Lab/Real-time-Sentiment-Tracking-on-Twitter-for-Brand-Improvement-and-Trend-Recognition) | Live brand sentiment pipeline |
+| [ML-MT-WebApp](https://github.com/Methods-Lab/ML-MT-WebApp) | Multilingual translation web app |
+| [machine-learning-notes](https://github.com/Methods-Lab/machine-learning-notes) | Annotated ML notebooks, linear → transformers |
+| [football_analysis](https://github.com/Methods-Lab/football_analysis) | ML sports analytics and prediction |
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Finance & Prediction
+Market intelligence and forecasting
+
+| Repository | Description |
+|---|---|
+| [Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis](https://github.com/Methods-Lab/Stock-Market-Prediction-Web-App-using-Machine-Learning-And-Sentiment-Analysis) | LSTM + sentiment stock dashboard |
+| [interview](https://github.com/Methods-Lab/interview) | ML & systems interview problems + solutions |
+
+</td>
+<td width="50%" valign="top">
+
+### Security & Applied ML
+Intelligent threat detection
+
+| Repository | Description |
+|---|---|
+| [Fwaf-Machine-Learning-driven-Web-Application-Firewall](https://github.com/Methods-Lab/Fwaf-Machine-Learning-driven-Web-Application-Firewall) | Adaptive ML-driven WAF |
+| [code](https://github.com/Methods-Lab/code) | C++ algorithms and systems implementations |
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Pretrained Models & Hubs
+Ready-to-deploy model collections
+
+| Repository | Description |
+|---|---|
+| [pretrained.ml](https://github.com/Methods-Lab/pretrained.ml) | Cross-framework model index and downloader |
+| [open_model_zoo](https://github.com/Methods-Lab/open_model_zoo) | Intel's 200+ production model zoo |
+| [inference](https://github.com/Methods-Lab/inference) | Vision model deployment server |
+
+</td>
+<td width="50%" valign="top">
+
+### Research Resources
+Papers, surveys, and learning paths
+
+| Repository | Description |
+|---|---|
+| [Deep-Learning-for-Recommendation-Systems](https://github.com/Methods-Lab/Deep-Learning-for-Recommendation-Systems) | DL recommender survey with code |
+| [GNN-Recommender-Systems](https://github.com/Methods-Lab/GNN-Recommender-Systems) | GNN recommender landscape |
+| [machine-learning-notes](https://github.com/Methods-Lab/machine-learning-notes) | Structured ML learning notebooks |
+| [Tools-to-Design-or-Visualize-Architecture-of-Neural-Network](https://github.com/Methods-Lab/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network) | Neural net design toolkit survey |
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+## Technology Stack
+
+<div align="center">
+
+**Core Frameworks**
+
+<img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikitlearn&logoColor=white" />
+<img src="https://img.shields.io/badge/JAX-8b5cf6?style=flat-square&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenVINO-0071c5?style=flat-square&logo=intel&logoColor=white" />
+
+**Languages**
+
+<img src="https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/C%2B%2B-00599c?style=flat-square&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=jupyter&logoColor=white" />
+
+**Serving & APIs**
+
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=google&logoColor=white" />
+
+**Visualization**
+
+<img src="https://img.shields.io/badge/D3.js-f9a03c?style=flat-square&logo=d3dotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white" />
+<img src="https://img.shields.io/badge/Svelte-ff3e00?style=flat-square&logo=svelte&logoColor=white" />
+
+</div>
+
+<br/>
+
+---
+
+## Contribution Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Methods-Lab&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true&area_color=1f6feb20">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Methods-Lab&bg_color=f6f8fa&color=1d4ed8&line=2563eb&point=1d4ed8&area=true&hide_border=true&area_color=dbeafe" alt="Contribution Activity" width="95%">
+</picture>
+
+</div>
+
+<br/>
+
+---
+
+## Research Depth by Domain
+
+<div align="center">
+
+```
+Neural Network Visualization  ████████████████████  20 tools & implementations
+Recommendation Systems        ████████████████████  18 frameworks & papers
+ML Infrastructure             ██████████████████    14 training & serving tools
+NLP & Sentiment Analysis      ████████████████      12 language models & apps
+Computer Vision               ██████████████        10 detection & segmentation
+Finance & Prediction          ████████              8  forecasting models
+Security & Applied ML         ██████                5  adaptive defence systems
+Research Resources            ████████████          8  surveys & learning paths
+```
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f2e,100:0d1117&height=120&section=footer&animation=fadeIn">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f0f6ff,50:dbeafe,100:f0f6ff&height=120&section=footer&animation=fadeIn" alt="footer">
+</picture>
+
+**[Browse all 105 repositories →](https://github.com/orgs/Methods-Lab/repositories)**
 
 *Methods Lab — Engineering the methods that advance machine intelligence.*
 
